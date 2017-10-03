@@ -3088,7 +3088,7 @@ void menu()
     gotoxy(42, 10);printf("| |  _  | | | |__| | |__  | |  _  |  | | | | | | | |___  | |  __");
     gotoxy(43, 10);printf("| |_| |_| | |  __  |  __| | | | | |  | |_| | | | | |     | |__| |");
     gotoxy(44, 10);printf("|_________| |_|  |_| |____| |_| |_|  |_____| | |_/ |____ |______|");
-    gotoxy(20, 16);printf("Carros: Grandes %c, Medianos %c y Pequenios %c.", 219, 220, 254);
+    gotoxy(20, 16);printf("Autos: Grandes %c, Medianos %c y Pequenios %c.", 219, 220, 254);
     gotoxy(0, 0);
     gotoxy(25, 10);printf("Ingrese tiempo que durara la animacion: (Segundos)");
     gotoxy(27, 19);fflush(stdin);scanf("%d", &TIEMPODESIMULACION);
